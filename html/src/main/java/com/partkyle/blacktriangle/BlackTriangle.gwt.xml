@@ -1,0 +1,10 @@
+<module rename-to='blacktriangle'>
+  <inherits name='playn.PlayN'/>
+
+  <source path='core'/>
+  <source path='html'/>
+
+  <public path="resources" />
+
+  <entry-point class='com.partkyle.blacktriangle.html.BlackTriangleHtml'/>
+</module>

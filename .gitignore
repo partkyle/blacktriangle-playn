@@ -1,0 +1,31 @@
+.classpath
+.project
+.settings
+.DS_Store
+target
+
+# Ignore pythagoras if it's symlinked here for sbt
+pythagoras
+
+# /android/
+/android/bin
+/android/gen
+
+# /core/
+/core/bin
+/core/.gwt
+
+# /server/
+/server/bin
+
+# /benchmark
+/benchmark/html/war/WEB-INF/classes
+/benchmark/html/war/WEB-INF/deploy/
+/benchmark/html/war/bench/
+
+# /test/manualtests
+/tests/html/war/WEB-INF/classes
+/tests/html/war/WEB-INF/deploy
+/tests/html/war/manualtestsgame
+/tests/html/gwt-unitCache
+/tests/flash/war/WEB-INF/classes
